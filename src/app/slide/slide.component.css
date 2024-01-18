@@ -1,0 +1,9 @@
+.dual-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px; 
+}
+.back{
+    background: rgba(0, 0, 0, 0.1)
+}

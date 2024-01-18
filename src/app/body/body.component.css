@@ -1,0 +1,17 @@
+input {
+    border: none;
+    border-bottom: 1px solid #000; 
+    outline: none;
+}
+.book:hover{
+background-color:DarkTurquoise;
+color: aliceblue;
+}
+.team:hover{
+    background-color:DarkTurquoise;
+color: aliceblue;
+}
+.price:hover{
+    background-color:DarkTurquoise  ;
+    color: aliceblue;
+}
