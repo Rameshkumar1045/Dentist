@@ -1,0 +1,6 @@
+.photo:hover {
+    background-color: deepskyblue;
+}
+.card-body:hover {
+    color: white;
+}

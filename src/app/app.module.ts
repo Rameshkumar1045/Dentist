@@ -11,6 +11,9 @@ import { SlideComponent } from './slide/slide.component';
 import { StartComponent } from './start/start.component';
 import { BodyComponent } from './body/body.component';
 import { ClinicComponent } from './clinic/clinic.component';
+import { DoctorComponent } from './doctor/doctor.component';
+import { ToothcareComponent } from './toothcare/toothcare.component';
+import { AppointmentComponent } from './appointment/appointment.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ClinicComponent } from './clinic/clinic.component';
     SlideComponent,
     StartComponent,
     BodyComponent,
-    ClinicComponent
+    ClinicComponent,
+    DoctorComponent,
+    ToothcareComponent,
+    AppointmentComponent
   ],
   imports: [
     BrowserModule,

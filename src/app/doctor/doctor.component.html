@@ -1,0 +1,26 @@
+<div class="container p-4">
+    <div class="text-center mt-5">
+        <h6 style="color: DodgerBlue;">OUR DOCTORS</h6>
+        <h1>Qualified Dentist</h1>
+    </div><br>
+
+<div class="container row row-cols-1 row-cols-md-4 g-4 mt-5">
+    <div *ngFor="let d of doc" class="col shadow-sm mb-5 bg-body border border-light">
+      <div class="card photo ">
+        <img [src]="d.image" class="card-img-top p-5" style="border-radius: 50%;">
+        <div class="card-body text-center">
+          <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">{{d.name}}</h5>
+          <h6 class=" mt-4 text-info" >{{d.tittle}}</h6>
+          <div class="mt-4">
+          <i class="fa-brands fa-twitter bg-info ms-2" style="border-radius: 50%; color: aliceblue;padding: 10px;" ></i>
+          <i class="fa-brands fa-facebook-f bg-info ms-2" style="border-radius: 50%; color:aliceblue;padding: 10px;"></i>
+          <i class="fa-brands fa-google bg-info ms-2" style="border-radius: 50%; color:aliceblue;padding: 10px;"  ></i>
+          <i class="fa-brands fa-instagram bg-info ms-2" style="border-radius: 50%; color: aliceblue;padding: 10px;"></i>
+          </div>
+          <p class="card-text p-3 text-muted">{{d.content}}</p>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+
+
