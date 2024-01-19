@@ -14,6 +14,7 @@ import { ClinicComponent } from './clinic/clinic.component';
 import { DoctorComponent } from './doctor/doctor.component';
 import { ToothcareComponent } from './toothcare/toothcare.component';
 import { AppointmentComponent } from './appointment/appointment.component';
+import { CustomerComponent } from './customer/customer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AppointmentComponent } from './appointment/appointment.component';
     ClinicComponent,
     DoctorComponent,
     ToothcareComponent,
-    AppointmentComponent
+    AppointmentComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,12 @@
-<div class="container p-4" style="background-color: Gainsboro ;">
-    <div class="text-center mt-5">
+<div class="container-fluid p-4" style="background-color: Gainsboro ;">
+    <div class="text-center mt-5 ">
         <h6 style="color: DodgerBlue;">SERVICE</h6>
         <h1>Toothcare Service</h1>
     </div><br><br>
     
-    <div class="row row-cols-2 row-cols-md-4 g-4">
-        <div class="col" *ngFor="let t of tooth">
-          <div class="card align-items-center image1 p-3 shadow-sm p-3 mb-5 border border-light">
+    <div class="row row-cols-2 row-cols-md-4 p-5">
+        <div class="col " *ngFor="let t of tooth">
+          <div class="card align-items-center image1  shadow-sm p-3 mb-5 border border-light">
             <img [src]="t.image" class="card-img-top" style="width: 100px; height: 100px; border-radius: 50%; background-color:DodgerBlue;">
             <div class="card-body">
               <h5 class="card-title">{{t.title}}</h5>
