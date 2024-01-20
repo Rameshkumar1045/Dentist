@@ -1,0 +1,7 @@
+@media (max-width: 767px) {
+    .float-end {
+        float: none;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}

@@ -3,15 +3,15 @@ input {
     border-bottom: 1px solid #000; 
     outline: none;
 }
-.book:hover{
-background-color:DarkTurquoise;
-color: aliceblue;
+.bg-info-hover:hover {
+    background-color: #17a2b8 !important; /* Update the color as needed */
 }
-.team:hover{
-    background-color:DarkTurquoise;
-color: aliceblue;
+
+.text-light-hover:hover {
+    color: #fff !important; /* Update the color as needed */
 }
-.price:hover{
-    background-color:DarkTurquoise  ;
-    color: aliceblue;
+.icon-hover:hover {
+    color: #fff !important; /* Update the color as needed */
 }
+
+
