@@ -15,6 +15,7 @@ import { DoctorComponent } from './doctor/doctor.component';
 import { ToothcareComponent } from './toothcare/toothcare.component';
 import { AppointmentComponent } from './appointment/appointment.component';
 import { CustomerComponent } from './customer/customer.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CustomerComponent } from './customer/customer.component';
     DoctorComponent,
     ToothcareComponent,
     AppointmentComponent,
-    CustomerComponent
+    CustomerComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
