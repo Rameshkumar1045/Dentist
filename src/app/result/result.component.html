@@ -1,0 +1,75 @@
+<style>
+    .col {
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        position: relative;
+    }
+
+    .col img {
+        display: none;
+    }
+
+    .col .text-container {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.7); 
+        padding: 20px;
+        text-align: center;
+        width: 100%; 
+        height: 30%;
+     opacity: 0;
+    }
+    
+    .col .text-container:hover{
+       opacity: 1;
+    }
+    .col:nth-child(1) {
+        background-image: url('assets/result/result1.jpg.webp');
+    }
+
+    .col:nth-child(2) {
+        background-image: url('assets/result/result3.jpg.webp');
+    }
+
+    .col:nth-child(3) {
+        background-image: url('assets/result/result4.jpg.webp');
+    }
+
+    .col:nth-child(4) {
+        background-image: url('assets/result/result1.jpg.webp');
+    }
+</style>
+
+<div class="container-fluid">
+    <h6 style="justify-content: center; text-align: center;" class="text-info mt-5">STORIES</h6>
+    <h2 style="justify-content: center; text-align: center;" class="mt-2">Result of our Treatment and Work</h2>
+    <div class="row mt-5">
+        <div class="col">
+            <div class="text-container">
+                <p>France, 28 years</p>
+                <p>John Johnson</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="text-container">
+                <p>France, 24 years</p>
+                <p>Mary Johnson</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="text-container">
+                <p>France, 26 years</p>
+                <p>Beatrice Schwarzenegger</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="text-container">
+                <p>France, 28 years</p>
+                <p>John Johnson</p>
+            </div>
+        </div>
+    </div>
+</div>
