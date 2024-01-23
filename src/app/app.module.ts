@@ -19,7 +19,8 @@ import { BlogComponent } from './blog/blog.component';
 import { ResultComponent } from './result/result.component';
 import { PackagesComponent } from './packages/packages.component';
 import { EndComponent } from './end/end.component';
-import { End2Component } from './end2/end2.component'
+import { End2Component } from './end2/end2.component';
+import { ContactComponent } from './contact/contact.component'
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { End2Component } from './end2/end2.component'
     ResultComponent,
     PackagesComponent,
     EndComponent,
-    End2Component
+    End2Component,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

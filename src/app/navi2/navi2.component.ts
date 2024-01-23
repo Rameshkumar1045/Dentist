@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navi2',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class Navi2Component {
 
+  constructor(private route:Router){}
+  goCantact(){
+    return this.route.navigate(['contact'])
+  }
 }
