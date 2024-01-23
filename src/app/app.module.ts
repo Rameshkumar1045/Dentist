@@ -17,7 +17,9 @@ import { AppointmentComponent } from './appointment/appointment.component';
 import { CustomerComponent } from './customer/customer.component';
 import { BlogComponent } from './blog/blog.component';
 import { ResultComponent } from './result/result.component';
-import { PackagesComponent } from './packages/packages.component'
+import { PackagesComponent } from './packages/packages.component';
+import { EndComponent } from './end/end.component';
+import { End2Component } from './end2/end2.component'
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { PackagesComponent } from './packages/packages.component'
     CustomerComponent,
     BlogComponent,
     ResultComponent,
-    PackagesComponent
+    PackagesComponent,
+    EndComponent,
+    End2Component
   ],
   imports: [
     BrowserModule,
