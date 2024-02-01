@@ -1,0 +1,38 @@
+button{
+    border: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+ul{
+    list-style: none;
+}
+.col-md-3{
+    height: 600px; 
+    
+}
+
+.col-md-3:hover{
+background-color:white;
+opacity: 1;
+}
+.btn:hover{
+    background-color: #5bc0de ; 
+    color: black;
+}
+.btn  {
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Setting border color with 0.5 opacity */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white; /* Optional: Set background color */
+    color: black;           /* Optional: Set text color */
+  }
+  

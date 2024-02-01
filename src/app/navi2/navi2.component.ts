@@ -10,6 +10,21 @@ export class Navi2Component {
 
   constructor(private route:Router){}
   goCantact(){
-    return this.route.navigate(['contact'])
+    return this.route.navigate(['contact']);
+  }
+  log(){
+    return this.route.navigate(['log']);
+  }
+  pricing(){
+    return this.route.navigate(['pricing'])
+  }
+  service(){
+    return this.route.navigate(['service'])
+  }
+  about(){
+    return this.route.navigate(['about'])
+  }
+  dentist(){
+    return this.route.navigate(['dentist'])
   }
 }

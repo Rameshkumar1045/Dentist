@@ -1,0 +1,8 @@
+.custom-word-spacing {
+    word-spacing: 10px;
+    padding-top: 40px; 
+  }
+ .page-link:hover{
+background-color: skyblue;
+color: black;
+ }

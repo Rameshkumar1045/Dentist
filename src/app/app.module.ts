@@ -20,7 +20,14 @@ import { ResultComponent } from './result/result.component';
 import { PackagesComponent } from './packages/packages.component';
 import { EndComponent } from './end/end.component';
 import { End2Component } from './end2/end2.component';
-import { ContactComponent } from './contact/contact.component'
+import { ContactComponent } from './contact/contact.component';
+import { LogComponent } from './log/log.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { ServiceComponent } from './service/service.component';
+import { AboutComponent } from './about/about.component';
+import { DentistComponent } from './dentist/dentist.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -41,12 +48,19 @@ import { ContactComponent } from './contact/contact.component'
     PackagesComponent,
     EndComponent,
     End2Component,
-    ContactComponent
+    ContactComponent,
+    LogComponent,
+    PricingComponent,
+    ServiceComponent,
+    AboutComponent,
+    DentistComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
